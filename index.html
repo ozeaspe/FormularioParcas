@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="icone.png" rel="icon" type="image/png">
+    <title>Tardezinha dos Parças</title>
+
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Tardezinha com os Parças<img src="pandeiro.webp"></h1>
+    </header>
+    <div class="form">
+        <form action="https://api.staticforms.xyz/submit" method="post" class="card">
+
+            <input type="hidden" name="accessKey" value="63e9878a-1b19-4311-a347-9ff5a6cdb20d">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">  
+
+
+            <label for="inputNome">Nome ou Apelidio: </label>
+            <input type="text" id="inputNome" name="name" required maxlength="25" minlength="2">
+            <span></span>
+
+            <label for="qtdConvidados">Quantidade de Convidados: </label>
+            <input type="text" id="inputConvidados" name="name" required max="4" min="1">
+            <span></span>
+
+            <label for="qtdCamisas">Quantidade de Camisas: </label>
+            <input type="text" id="inputCamisas" name="name" require max="10" min="1">
+            <span></span>
+
+            <label for="textAreaSugestao">Sugestão:</label>
+            <textarea name="message" id="textAreaMensagem" required maxlength="255"></textarea>
+
+            <button>Enviar</button>
+
+
+        </form>
+    </di>
+</body>
+</html>
