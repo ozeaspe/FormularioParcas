@@ -11,7 +11,7 @@ body:before{
     height: 100%;
     z-index: 1;
     opacity: 0.6;
-    background-image: url(pelada.jpeg);
+    background-image: url(./images/pelada.jpeg);
     background-repeat: repeat;
     background-position: 50% 0;
     background-size: 350px;
